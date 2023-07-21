@@ -1,4 +1,4 @@
-# OCR-extractioni
+# OCR-extraction
 
 OCR ([*Optical Character Recognition*](https://en.wikipedia.org/wiki/Optical_character_recognition)) with Google's AI technology ([Cloud Vision API](https://cloud.google.com/vision/docs/ocr)).
 

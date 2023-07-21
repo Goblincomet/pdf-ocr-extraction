@@ -544,23 +544,3 @@ Paragraph confidence: 0.862
 (0.862) Platform
 Possible mistake: symbol 'P' in word 'Platform' (confidence: 0.639)
 ```
-
-### Alternative: Use <u>gcloud</u> CLI
-
-To perform entity analysis, use the [`gcloud ml vision detect-text`](https://cloud.google.com/sdk/gcloud/reference/ml/vision/detect-text) command using the [Google Cloud SDK](https://cloud.google.com/sdk/docs/) as shown in the following example:
-
-```sh
-gcloud auth login
-gcloud projects list # check your PROJECT_ID (e.g. imagetotext)
-gcloud config set project imagetotext
-```
-
-![abbey_road.JPG](https://cloud.google.com/vision/docs/images/abbey_road.png)
-
-```
-gcloud ml vision detect-text "https://cloud.google.com/vision/docs/images/abbey_road.JPG" > abbey_road.txt
-```
-    }
-  ]
-}
-```
